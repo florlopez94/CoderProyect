@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,500&family=Montserrat:wght@300;700&display=swap");
+.intropromociones {
+  display: flex;
+  justify-content: center; }
+  @media (max-width: 378px) {
+    .intropromociones {
+      display: flex;
+      justify-content: center; } }
+  .intropromociones p {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .intropromociones img {
+    display: flex;
+    align-content: center;
+    margin-top: 50px;
+    max-width: 200px;
+    max-height: 200px; }
+
+.promocion {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #2587be;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.preciopromocion {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+.infopromocion {
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+
+.textopostpromocion {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.introservicios {
+  margin: 20px; }
+  @media (min-width: 576px) {
+    .introservicios .introservicios {
+      display: flex;
+      flex-direction: row;
+      margin: 50px; } }
+  .introservicios img {
+    display: flex;
+    margin: auto;
+    max-height: 18em;
+    max-width: 18em;
+    justify-content: center; }
+    @media (max-width: 378px) {
+      .introservicios img {
+        display: flex;
+        margin: auto;
+        width: 100%; } }
+  .introservicios p {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center; }
+  .introservicios h2 {
+    width: 600px;
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bolder; }
+
+.serviciosp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  font-weight: 1000; }
+
+.postservicios {
+  display: flex;
+  flex-direction: column; }
+  .postservicios h5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #1070a3; }
+  .postservicios p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 45px; }
+
+.textocontenido {
+  display: flex;
+  margin: 30px; }
+
+footer {
+  bottom: 0;
+  position: sticky; }

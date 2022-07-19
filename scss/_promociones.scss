@@ -1,0 +1,51 @@
+.intropromociones {
+    display: flex;
+    justify-content: center;
+    @media (max-width: 378px) {
+        display: block;
+        justify-content: center;
+    }
+    p{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    img{
+        display: flex;
+        align-content: center;
+        margin-top: 50px;
+        max-width: 200px;
+        max-height: 200px;
+        
+    }
+}
+.promocion {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #2587be;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.preciopromocion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.infopromocion {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.textopostpromocion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

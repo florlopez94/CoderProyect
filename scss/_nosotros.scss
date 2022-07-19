@@ -1,0 +1,10 @@
+.textocontenido {
+    display: flex;
+    margin: 30px;
+}
+@media (max-width: 576px){
+    .contenedornosotros {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto;
+    }
